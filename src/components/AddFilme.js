@@ -43,7 +43,7 @@ const AddFilme = () => {
   };
 
   const newFilme = () => {
-    setFilme(initialTutorialState);
+    setFilme(initialFilmeState);
     setSubmitted(false);
   };
 
@@ -65,7 +65,7 @@ const AddFilme = () => {
               className="form-control"
               id="titulo"
               required
-              value={tutorial.titulo}
+              value={filme.titulo}
               onChange={handleInputChange}
               name="titulo"
             />
@@ -78,7 +78,7 @@ const AddFilme = () => {
               className="form-control"
               id="diretor"
               required
-              value={tutorial.diretor}
+              value={filme.diretor}
               onChange={handleInputChange}
               name="diretor"
             />
@@ -91,7 +91,7 @@ const AddFilme = () => {
               className="form-control"
               id="genero"
               required
-              value={tutorial.genero}
+              value={filme.genero}
               onChange={handleInputChange}
               name="genero"
             />
@@ -104,7 +104,7 @@ const AddFilme = () => {
               className="form-control"
               id="ano"
               required
-              value={tutorial.ano}
+              value={filme.ano}
               onChange={handleInputChange}
               name="ano"
             />
@@ -118,3 +118,5 @@ const AddFilme = () => {
     </div>
   );
 };
+
+export default AddFilme;
