@@ -3,9 +3,9 @@ import { Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-import AddTutorial from "./components/AddFilme";
-import Tutorial from "./components/Filme";
-import TutorialsList from "./components/FilmesList";
+import AddFilme from "./components/AddFilme";
+import Filme from "./components/Filme";
+import FilmesList from "./components/FilmesList";
 
 function App() {
   return (
