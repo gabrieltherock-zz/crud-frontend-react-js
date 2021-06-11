@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect} from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -8,6 +8,11 @@ import Filme from "./components/Filme";
 import FilmesList from "./components/FilmesList";
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Lab. Eng. Software";
+  }, []);
+
   return (
     <div>
       <nav className="navbar navbar-expand navbar-dark bg-dark">
@@ -27,7 +32,7 @@ function App() {
           </li>
         </div>
       </nav>
-
+      
       <div className="container mt-3">
         <Switch>
           <Route exact path={["/", "/filmes"]} component={FilmesList} />
