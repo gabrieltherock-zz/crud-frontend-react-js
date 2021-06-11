@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import FilmeDataService from "./services/FilmeService";
+import FilmeDataService from "../services/FilmeService";
 import { Link } from "react-router-dom";
 
 const FilmesList = () => {

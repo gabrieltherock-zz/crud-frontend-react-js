@@ -53,7 +53,7 @@ const AddFilme = () => {
         <div>
           <h4>Adicionado com sucesso!</h4>
           <button className="btn btn-success" onClick={newFilme}>
-            Post
+            Adicionar outro Filme
           </button>
         </div>
       ) : (
@@ -111,7 +111,7 @@ const AddFilme = () => {
           </div>
 
           <button onClick={saveFilme} className="btn btn-success">
-            Submit
+            Post
           </button>
         </div>
       )}
