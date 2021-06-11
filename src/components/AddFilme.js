@@ -59,7 +59,7 @@ const AddFilme = () => {
       ) : (
         <div>
           <div className="form-group">
-            <label htmlFor="titulo">Titulo</label>
+            <label htmlFor="titulo">Título</label>
             <input
               type="text"
               className="form-control"
@@ -85,7 +85,7 @@ const AddFilme = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="genero">Genero</label>
+            <label htmlFor="genero">Gênero</label>
             <input
               type="text"
               className="form-control"

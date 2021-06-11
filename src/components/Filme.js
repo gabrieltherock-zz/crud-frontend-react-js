@@ -83,7 +83,7 @@ const Filme = props => {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="genero">Genero</label>
+              <label htmlFor="genero">Gênero</label>
               <input
                 type="text"
                 className="form-control"

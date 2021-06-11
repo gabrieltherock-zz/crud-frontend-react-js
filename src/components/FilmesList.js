@@ -77,7 +77,7 @@ const FilmesList = () => {
             <h4>Filme</h4>
             <div>
               <label>
-                <strong>Titulo:</strong>
+                <strong>Título:</strong>
               </label>{" "}
               {currentFilme.titulo}
             </div>
@@ -89,7 +89,7 @@ const FilmesList = () => {
             </div>
             <div>
               <label>
-                <strong>Genero:</strong>
+                <strong>Gênero:</strong>
               </label>{" "}
               {currentFilme.genero}
             </div>
