@@ -24,7 +24,7 @@ const removeAll = () => {
   return http.delete(`/filmes`);
 };
 
-export default {
+const filmeService = {
   getAll,
   get,
   create,
@@ -32,3 +32,5 @@ export default {
   remove,
   removeAll
 };
+
+export default filmeService;

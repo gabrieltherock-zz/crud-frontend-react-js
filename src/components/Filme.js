@@ -106,13 +106,13 @@ const Filme = props => {
             </div>
           </form>
 
-          <button className="badge badge-danger mr-2" onClick={deleteFilme}>
+          <button className="btn btn-danger" onClick={deleteFilme}>
             Delete
           </button>
 
           <button
             type="submit"
-            className="badge badge-success"
+            className="btn btn-success"
             onClick={updateFilme}
           >
             Update

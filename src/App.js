@@ -12,7 +12,7 @@ function App() {
     <div>
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <a href="/filmes" className="navbar-brand">
-          gabriel
+          Gabriel da Rocha Souza
         </a>
         <div className="navbar-nav mr-auto">
           <li className="nav-item">
@@ -22,7 +22,7 @@ function App() {
           </li>
           <li className="nav-item">
             <Link to={"/add"} className="nav-link">
-              Add
+              Adicionar Novo Filme
             </Link>
           </li>
         </div>

@@ -68,7 +68,7 @@ const FilmesList = () => {
           className="m-3 btn btn-sm btn-danger"
           onClick={removeAllFilmes}
         >
-          Delete All
+          Excluir Todos
         </button>
       </div>
       <div className="col-md-6">
@@ -102,7 +102,7 @@ const FilmesList = () => {
 
             <Link
               to={"/filmes/" + currentFilme.id}
-              className="badge badge-warning"
+              className="btn btn-success"
             >
               Editar
             </Link>
