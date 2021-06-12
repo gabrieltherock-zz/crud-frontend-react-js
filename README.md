@@ -2,7 +2,7 @@
 
 Frontend de um CRUD de filmes para a disciplina de Laboratório de Engenharia de Software.
 
-Feito usando React js, com axios para consumir dados do backend.
+Feito usando React JS, com axios para consumir dados do backend.
 
 Backend: https://github.com/gabrieltherock/crud-backend-spring-boot
 
