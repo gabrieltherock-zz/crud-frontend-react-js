@@ -24,13 +24,18 @@ const removeAll = () => {
   return http.delete(`/filmes`);
 };
 
+const findByTitulo = titulo => {
+  return http.get(`/filmes?titulo=${titulo}`);
+};
+
 const filmeService = {
   getAll,
   get,
   create,
   update,
   remove,
-  removeAll
+  removeAll,
+  findByTitulo
 };
 
 export default filmeService;
