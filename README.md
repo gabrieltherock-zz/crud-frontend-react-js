@@ -1,6 +1,6 @@
 # crud-frontend-react-js
 
-Frontend de um CRUD de filmes para a disciplina de Laboratório de Engenharia de Software.
+Frontend de um CRUD de filmes como trabalho para a disciplina de Laboratório de Engenharia de Software.
 
 Feito usando React JS, com axios para consumir dados do backend.
 
